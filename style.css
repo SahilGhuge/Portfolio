@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 1200px;
+    overflow: hidden;
+}
+.header img {
+    width: 100%;
+    height: 200%;
+    object-fit: cover;
+    filter: blur(5px); 
+}
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 300px;
+    font-weight: bold;
+    text-align: center;
+}
+.contact-info ul{
+    list-style-type:circle;
+    padding-left: 100px;
+}
+.contact{
+    text-align:center;
+    border-style:solid;
+    border-radius:15px;
+
+
+}
+.contact-info{
+    font-family: serif;
+    font-size: 200px;
+    font-weight: 150;
+    padding-left:100px;
+}
+.fa-whatsapp{
+    font-size: 100px;
+    padding-left:100px
+}
+.fa-envelope{
+    font-size: 100px;
+    padding-left:100px;
+}
+.img img{
+    float:right;
+    width:1500px;
+    height:auto;
+    clip-path: circle();
+    padding-right:50px;
+}
+.self-intro{
+    font-size: 200px;
+    padding-left:100px
+
+}
+.self-intro ul{
+    list-style-type: circle;
+    padding-left: 100px;
+    padding-top:30px
+}
+.self-intro p{
+    font-family: serif;
+    font-size: 75px;
+    padding-left: 150px;
+}
+.Education ul{
+    list-style-type: circle;
+    font-size:200px;
+    padding-left:190px;
+    padding-top:30px;
+}
+.qualification{
+    padding-left: 100px;
+    font-family: serif;
+}
+h3{
+    font-size: 130px;
+}
+.qualification p{
+    font-size: 100px;
+    padding-left: 150px;
+}
+.mastery ul{
+    list-style-type: circle;
+    font-family: serif;
+    font-size: 200px;
+    padding-left: 190px;
+    padding-top: 30px;
+}
+.mastery h2{
+    font-family: serif;
+    font-size: 120px;
+    padding-left:190px;
+}
+.mastery p{
+    font-size: 100px;
+    padding-left:200px;
+}
+.project{
+    font-family: serif;
+    padding-left: 190px;
+    padding-top: 30px;
+    font-size:100px;
+    
+}
+.project ul{
+    list-style-type:circle;
+    font-size:200px;
+}
